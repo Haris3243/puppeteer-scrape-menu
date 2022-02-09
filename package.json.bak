@@ -1,0 +1,38 @@
+{
+  "name": "linkedin",
+  "version": "1.0.0",
+  "description": "An Automation Tool",
+  "main": "ui/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds",
+    "package:win": "electron-packager . LinkedlnAutomation --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds3 --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Linkedln Automation\"",
+    "package:all": "electron-packager . LinkedlnAutomation --overwrite --all --ignore=node_modules",
+    "package:linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git."
+  },
+  "keywords": [
+    "Automation",
+    "Linkedln"
+  ],
+  "author": "Azaz ur rehman",
+  "license": "ISC",
+  "dependencies": {
+    "commandline": "0.0.2",
+    "delay": "^5.0.0",
+    "express": "^4.17.2",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "nodemailer": "^6.7.2",
+    "puppeteer": "^13.1.1",
+    "puppeteer-core": "^13.1.3"
+  },
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0"
+  }
+}
