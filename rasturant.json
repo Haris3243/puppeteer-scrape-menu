@@ -1,0 +1,3432 @@
+{
+  "_id": {
+    "$oid": "60c7ff570b402abd00e2887f"
+  },
+  "menu": [
+    {
+      "id": "ac995580-d2c0-4853-a49f-c2c9f9977276",
+      "active": true,
+      "name": "Curbside Pickup",
+      "items": [
+        {
+          "id": "24f91eab-328a-4587-ac40-4754cad0c82a",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Curbside (Add to Cart for Curbside Pickup)",
+          "title": "Curbside (Add to Cart for Curbside Pickup)",
+          "price": "0.00",
+          "description": "Please add car type and color in the Special Instructions box. Give us a call when you arrive! (619) 319-5931",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "50556759-6a20-443d-b7bf-534a76772e87",
+      "active": true,
+      "name": "JUICES",
+      "items": [
+        {
+          "id": "594005b1-f0da-480a-8d56-7a48350449f5",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Make your own Juice",
+          "title": "Make your own Juice",
+          "price": "9.00",
+          "description": "",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            },
+            {
+              "id": 0,
+              "name": "Apple"
+            },
+            {
+              "id": 1,
+              "name": "Beet"
+            },
+            {
+              "id": 2,
+              "name": "Cayenne"
+            },
+            {
+              "id": 3,
+              "name": "Celery"
+            },
+            {
+              "id": 4,
+              "name": "Cucumber"
+            },
+            {
+              "id": 5,
+              "name": "Carrot"
+            },
+            {
+              "id": 6,
+              "name": "Grapefruit"
+            },
+            {
+              "id": 7,
+              "name": "Ginger"
+            },
+            {
+              "id": 8,
+              "name": "Kale"
+            },
+            {
+              "id": 9,
+              "name": "Lemon"
+            },
+            {
+              "id": 10,
+              "name": "Mint"
+            },
+            {
+              "id": 11,
+              "name": "Orange"
+            },
+            {
+              "id": 12,
+              "name": "Pineapple"
+            },
+            {
+              "id": 13,
+              "name": "Spinach"
+            },
+            {
+              "id": 14,
+              "name": "Strawberry"
+            },
+            {
+              "id": 15,
+              "name": "Watermelon"
+            }
+          ]
+        },
+        {
+          "id": "4e04a6ec-fb6f-4a23-8a28-c25d872d2afb",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G1",
+          "title": "G1",
+          "price": "9.00",
+          "description": "Kale, spinach, cucumber, and celery.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "20738ed3-1d16-41b1-9664-89e304af50f4",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G2",
+          "title": "G2",
+          "price": "9.00",
+          "description": "Kale, spinach, cucumber, celery, apple, and lemon.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "9a17a973-7c16-4bff-adcd-5af73a746608",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G3",
+          "title": "G3",
+          "price": "9.00",
+          "description": "Kale, spinach, cucumber, celery, apple, lemon, and ginger.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "c50b80f4-75ff-495c-a05a-4a46a6e6ec85",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G4",
+          "title": "G4",
+          "price": "9.00",
+          "description": "Kale, spinach, cucumber, celery, lemon, and ginger.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "39758680-638b-47bc-960d-053461db99e3",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G5",
+          "title": "G5",
+          "price": "9.00",
+          "description": "Kale, spinach, cucumber, celery, pineapple, lemon, ginger, and turmeric.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "0f38dbff-f2bb-48d4-910b-446288fa20ab",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G6",
+          "title": "G6",
+          "price": "9.00",
+          "description": "Kale, cucumber, apple, lemon, ginger, and mint.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "51ca229f-e8c2-49b8-a848-d3beec0f3cc1",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "G7",
+          "title": "G7",
+          "price": "10.00",
+          "description": "Celery juice.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "17ebbc04-783b-4e72-bc21-97838e324985",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "O1",
+          "title": "O1",
+          "price": "9.00",
+          "description": "Kale, ginger, strawberries, lemon, pineapple, orange, and cayenne.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "a27445b9-5f4e-4252-9791-9e3f1524cd85",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "O2",
+          "title": "O2",
+          "price": "8.00",
+          "description": "Grapefruit and mint.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 8
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 9
+            }
+          ]
+        },
+        {
+          "id": "c493c1b3-0dc1-41e7-8504-c4c7ffc273eb",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "O3",
+          "title": "O3",
+          "price": "9.00",
+          "description": "Apple, watermelon, carrot, and ginger.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "8132dc9d-c636-4952-8f0a-36e2426b6bcd",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "R1",
+          "title": "R1",
+          "price": "9.00",
+          "description": "Beet, apple, lemon, and ginger.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "2c6e8b52-ad33-4962-8569-18aa07060920",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Y1",
+          "title": "Y1",
+          "price": "9.00",
+          "description": "Pineapple, apple, and mint.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "4f07255f-e2b5-4030-8478-a25f6205c74f",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Y2",
+          "title": "Y2",
+          "price": "9.00",
+          "description": "Apple, lemon, ginger, and cayenne.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e47cd836-d664-4daa-9018-4c3d840fc035",
+      "active": true,
+      "name": "SHOTS",
+      "items": [
+        {
+          "id": "749db355-f1a8-46dc-9ba3-56b765f0ea5f",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "S1",
+          "title": "S1",
+          "price": "4.00",
+          "description": "2.5 oz. Lemon, ginger, and cayenne.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": []
+        },
+        {
+          "id": "190a9331-16d8-4cce-901d-9eb39d6517cc",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "S2",
+          "title": "S2",
+          "price": "4.00",
+          "description": "2.5 oz. Pineapple, ginger, and turmeric.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": []
+        },
+        {
+          "id": "4d31ab76-1278-4004-87c2-b92a931a7841",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "S3",
+          "title": "S3",
+          "price": "5.00",
+          "description": "2.5 oz. Wheatgrass shot.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": []
+        },
+        {
+          "id": "e98a6b37-c359-4719-9035-eb642b1e6d70",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "S4",
+          "title": "S4",
+          "price": "5.00",
+          "description": "2.5 oz. Apple cider vinegar, turmeric, lemon, ginger, and honey.",
+          "priceCurrency": "USD",
+          "modifiers": [],
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "5aadeae3-dba7-43ff-9ab3-6e94242744aa",
+      "active": true,
+      "name": "SMOOTHIES",
+      "items": [
+        {
+          "id": "f2b95815-43c9-4aa8-832b-a3126f8f97cf",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Make your own smoothie",
+          "title": "Make your own smoothie",
+          "price": "7.00",
+          "description": "",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "CUSTOM SMOOTHIE EXTRA",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Agave",
+                  "price": 0
+                },
+                {
+                  "name": "Beet",
+                  "price": 0.5
+                },
+                {
+                  "name": "Cayenne",
+                  "price": 0
+                },
+                {
+                  "name": "Carrot",
+                  "price": 0.5
+                },
+                {
+                  "name": "Celery",
+                  "price": 0.5
+                },
+                {
+                  "name": "Cinnamon",
+                  "price": 0
+                },
+                {
+                  "name": "Cucumber",
+                  "price": 0.5
+                },
+                {
+                  "name": "Dried Mango",
+                  "price": 0.5
+                },
+                {
+                  "name": "Ginger",
+                  "price": 0.5
+                },
+                {
+                  "name": "Granola",
+                  "price": 0.5
+                },
+                {
+                  "name": "Grapefruit",
+                  "price": 0.5
+                },
+                {
+                  "name": "Honey",
+                  "price": 0
+                },
+                {
+                  "name": "Kale",
+                  "price": 0.5
+                },
+                {
+                  "name": "Lemon",
+                  "price": 0.5
+                },
+                {
+                  "name": "Mint",
+                  "price": 0.5
+                },
+                {
+                  "name": "Spinach",
+                  "price": 0.5
+                },
+                {
+                  "name": "Watermelon",
+                  "price": 0.5
+                }
+              ]
+            },
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 7
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 8
+            },
+            {
+              "id": 0,
+              "name": "Almond milk"
+            },
+            {
+              "id": 1,
+              "name": "Unsweetened Almond milk"
+            },
+            {
+              "id": 2,
+              "name": "Apple"
+            },
+            {
+              "id": 3,
+              "name": "Coconut water"
+            },
+            {
+              "id": 4,
+              "name": "Orange"
+            },
+            {
+              "id": 0,
+              "name": "Banana"
+            },
+            {
+              "id": 1,
+              "name": "Blueberry"
+            },
+            {
+              "id": 2,
+              "name": "Coconut meat"
+            },
+            {
+              "id": 3,
+              "name": "Strawberry"
+            },
+            {
+              "id": 4,
+              "name": "Pineapple"
+            }
+          ]
+        },
+        {
+          "id": "995ab3a0-f47c-48b0-b622-ed0666a67a03",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "NEW Chamango",
+          "title": "NEW Chamango",
+          "price": "10.00",
+          "description": "No added sugar chamoy, golden berries, strawberries, orange, apple dried mango",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "0dab83c6-4e58-4f8d-8f07-ff1e280fd0cd",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "NEW Shroom chocolate protein",
+          "title": "NEW Shroom chocolate protein",
+          "price": "11.00",
+          "description": "four sigmatic mushroom blend, chocolate protein, banana, cacao nibs, cacao powder, coconut butter, dates, almond milk",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 11
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "id": "52258956-84c4-4583-b76f-e3c7146d1676",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Berry Antioxidant",
+          "title": "Berry Antioxidant",
+          "price": "10.00",
+          "description": "Strawberries, blueberries, goji berries, coconut water, banana, cacao powder, maca, and agave.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "692cc017-7df6-4326-afcf-1efb08de7e69",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Blue Majik",
+          "title": "Blue Majik",
+          "price": "11.00",
+          "description": "Banana. dates. almonds, coconut meat, cinnamon, vanilla, ashwagandha, blue spirulina, and almond milk.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 11
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "id": "563147d2-0245-44df-9e64-7a85d2bcb1ef",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Brazilian Boost",
+          "title": "Brazilian Boost",
+          "price": "9.00",
+          "description": "Acai, coconut water, pineapple, and banana.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "16ceee67-f581-47cf-9494-4bbe6cb6baa6",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Choco Crunch",
+          "title": "Choco Crunch",
+          "price": "10.00",
+          "description": "Cacao nibs, cacao powder, goji berries, walnuts, almond milk, cinnamon, vanilla, banana, and dates.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "d25fab7d-4f43-4d8d-98b8-e4795dd394da",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Dragon Fruit Blast",
+          "title": "Dragon Fruit Blast",
+          "price": "8.50",
+          "description": "Pitaya, coconut water, pineapple, and banana.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 8.5
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 9.5
+            }
+          ]
+        },
+        {
+          "id": "901380f2-3a26-48ac-b9df-fc7f6328b92e",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Epic Greens",
+          "title": "Epic Greens",
+          "price": "10.00",
+          "description": "Morings, banana, apple, mint, spinach, and chia seeds.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "4a8fa3d9-06ca-4886-b3f5-8ddccb129d40",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Fit 4 Life",
+          "title": "Fit 4 Life",
+          "price": "10.00",
+          "description": "Blueberries, almond milk, banana, almond butter, and vanilla protein.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "18a7ec2d-f015-44f9-b3a9-50a0a5174d8f",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Green Goddess",
+          "title": "Green Goddess",
+          "price": "11.00",
+          "description": "Kale, spinach, celery, coconut water, coconut meat, chia, apple, flax seeds, dates, agave, and spirulina.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 11
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "id": "e98fd6c9-ac90-49f8-abc7-5e8d81b6bf3c",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Keto Power",
+          "title": "Keto Power",
+          "price": "11.00",
+          "description": "Blueberries, strawberries, almonds, walnuts, almond butter, and unsweetened almond milk.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 11
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "id": "fbff06c1-d22d-44dc-a3c8-52e4029161f7",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Mango Bliss",
+          "title": "Mango Bliss",
+          "price": "9.00",
+          "description": "Golden berries, strawberries, orange, apple, and dried mango.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        },
+        {
+          "id": "ca3adf97-4f84-4eb4-abfa-4406595eae14",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Mint Chocolate Chip",
+          "title": "Mint Chocolate Chip",
+          "price": "9.50",
+          "description": "Almond milk, coconut water, kale, dates, banana, walnuts, cacao nibs, and mint.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9.5
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10.5
+            }
+          ]
+        },
+        {
+          "id": "4673ec46-3a39-413e-8ee0-4a261ac7e23c",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Pink Crush",
+          "title": "Pink Crush",
+          "price": "7.00",
+          "description": "Strawberries, dried cranberries, apple, and pineapple.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 7
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 8
+            }
+          ]
+        },
+        {
+          "id": "2d926485-65d8-41f2-a1e9-186119631c42",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Protein Bomb",
+          "title": "Protein Bomb",
+          "price": "10.00",
+          "description": "Almond butter, vanilla protein, walnuts, almond milk, cinnamon, vanilla, banana, and dates.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "4cb9e904-2c62-4d7d-9b7c-7345f2b2632c",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "The Classic",
+          "title": "The Classic",
+          "price": "7.00",
+          "description": "Banana, strawberries, and apple.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 7
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 8
+            }
+          ]
+        },
+        {
+          "id": "3a75e7ad-55b3-4233-93ac-4f3b768da5d5",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Turmeric Blast",
+          "title": "Turmeric Blast",
+          "price": "10.00",
+          "description": "Kale, spinach, turmeric, spirulina, pineapple, celery, apple, and banana.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 10
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 11
+            }
+          ]
+        },
+        {
+          "id": "8f315735-e360-4e5f-9845-64e04115652d",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Vanilla Sunset",
+          "title": "Vanilla Sunset",
+          "price": "9.00",
+          "description": "Maca, cacao nibs, banana, almond butter, dates, coconut butter, almond milk and royal jelly.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": 0,
+              "name": "16oz",
+              "price": 9
+            },
+            {
+              "id": 1,
+              "name": "20oz",
+              "price": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "49066a51-1318-429a-97ef-9e2403969812",
+      "active": true,
+      "name": "BOWLS",
+      "items": [
+        {
+          "id": "a807c33b-e55a-4cfc-9cc2-0d80a45e6442",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Brazilian Bowl",
+          "title": "Brazilian Bowl",
+          "price": "11.00",
+          "description": "Base: acai and banana. Toppings: granola, banana, strawberries, and coconut flakes.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": []
+        },
+        {
+          "id": "36142a2a-2ea7-485c-a8dc-721892762549",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Bliss Bowl",
+          "title": "Bliss Bowl",
+          "price": "15.00",
+          "description": "Base: acai, banana, cacao powder, and ashwagandha. Toppings: Almonds, strawberries, coconut flakes, cacao nibs, goji berries, and chia seeds.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": []
+        },
+        {
+          "id": "d3c9f37c-b62f-4020-a34a-95e9965a4be2",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Dragon Bowl",
+          "title": "Dragon Bowl",
+          "price": "12.00",
+          "description": "Base: dragon fruit. Toppings: granola, banana, strawberries, chia seeds, golden berries, and coconut flakes.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": []
+        },
+        {
+          "id": "01dd7d00-8223-4fb3-ae77-2a8842bef0d5",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Green Bowl",
+          "title": "Green Bowl",
+          "price": "15.00",
+          "description": "Base: Blue spirulina & Coconut blend, banana, kale, and spinach. Toppings: Banana, strawberries, chia seeds, coconut flakes, and gluten free almond granola.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": []
+        },
+        {
+          "id": "f2af8b30-11da-429b-8328-52a241b640ac",
+          "active": true,
+          "image": null,
+          "taxes": 0,
+          "__v": 0,
+          "name": "Protein Bowl",
+          "title": "Protein Bowl",
+          "price": "14.00",
+          "description": "Base: acai, banana, and vanilla protein. Toppings: Banana, strawberries, almond, walnuts, and almond butter.",
+          "priceCurrency": "USD",
+          "modifiers": [
+            {
+              "question": "ADD-ONS",
+              "min_choice_options": 0,
+              "max_choice_options": 0,
+              "answers": [
+                {
+                  "name": "Acai",
+                  "price": 1.5
+                },
+                {
+                  "name": "Flax seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Spirulina",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao powder",
+                  "price": 1.5
+                },
+                {
+                  "name": "Prebiotic fiber",
+                  "price": 3
+                },
+                {
+                  "name": "Ashwagandha",
+                  "price": 2
+                },
+                {
+                  "name": "Golden berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein vanilla",
+                  "price": 3
+                },
+                {
+                  "name": "Coconut butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Royal jelly",
+                  "price": 1.5
+                },
+                {
+                  "name": "Cacao nibs",
+                  "price": 1.5
+                },
+                {
+                  "name": "Moringa",
+                  "price": 1.5
+                },
+                {
+                  "name": "Almond butter",
+                  "price": 1.85
+                },
+                {
+                  "name": "Goji Berries",
+                  "price": 1.5
+                },
+                {
+                  "name": "Turmeric",
+                  "price": 1.5
+                },
+                {
+                  "name": "Chia seeds",
+                  "price": 1.5
+                },
+                {
+                  "name": "Protein Chocolate",
+                  "price": 3
+                },
+                {
+                  "name": "Blue majik",
+                  "price": 2
+                },
+                {
+                  "name": "Maca",
+                  "price": 1.5
+                },
+                {
+                  "name": "Mushroom blend",
+                  "price": 2
+                }
+              ]
+            }
+          ],
+          "options": []
+        }
+      ]
+    }
+  ],
+  "url": "https://eat.chownow.com/discover/restaurant/41819/parakeet-juicery-coronado-west-1138-orange-avenue-coronado/menu",
+  "restaurant_info": {
+    "type": "Juice BarsSmoothie Bar",
+    "hours_of_operation": {
+      "Sunday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Monday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Tuesday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Wednesday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Thursday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Friday": {
+        "end": "1700",
+        "start": "0700"
+      },
+      "Saturday": {
+        "end": "1700",
+        "start": "0700"
+      }
+    },
+    "images": [],
+    "name": "Parakeet Juicery Coronado West",
+    "phone": "",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "CORONADO",
+      "addressRegion": "CA",
+      "postalCode": "92118",
+      "streetAddress": "1138 ORANGE AVENUE"
+    }
+  },
+  "source": "chownow",
+  "merchant_id": "2df9b58a-a838-4169-82b7-3fb0572cfe0f"
+}

@@ -4,12 +4,8 @@
   "description": "An Automation Tool",
   "main": "ui/main.js",
   "scripts": {
-    "start": "node src/index.js",
-    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds",
-    "package:win": "electron-packager . LinkedlnAutomation --overwrite --asar=true --platform=win32 --arch=ia32 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds3 --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Linkedln Automation\"",
-    "package:all": "electron-packager . LinkedlnAutomation --overwrite --all --ignore=node_modules",
-    "package:linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=src/ui/assets/images/logo.ico --prune=true --out=release-builds"
-  },
+    "start": "node src/index.js"
+   },
   "repository": {
     "type": "git",
     "url": "https://git."

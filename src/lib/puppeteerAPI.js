@@ -176,22 +176,22 @@ module.exports = {
 	* @param  {string} selector - A selector whose inside HTML text you want to retrieve
 	* @return {string} inside text of an given HTML element
 	*/
-	getText: async function (page, selector, textOnly,maximumTime=1000) {
+	getText: async function (page, selector, textOnly, maximumTime = 1000) {
 		try {
 			if (selector.startsWith('/') || (selector.startsWith('(/'))) {//Handle XPath
 				await page.waitForXPath(selector, { timeout: maximumTime })
 				let myElement = await page.$x(selector);
-    			return page.evaluate(el => el.textContent, myElement[0]);
+				return page.evaluate(el => el.textContent, myElement[0]);
 			}
-			else{
+			else {
 				await page.waitForSelector(selector, { timeout: config.waitingTimeout })
 				if (textOnly) {
-	
+
 					return page.$eval(selector, e => e.innerText)
 				}
 				return page.$eval(selector, e => e.innerHTML)
 			}
-			
+
 		} catch (error) {
 
 			throw new Error(`Cannot get text from selector: ${selector} | ${error}`)
@@ -246,16 +246,11 @@ module.exports = {
 	*/
 	click_xPath: async function (page, selector) {//TODO remove all click_xPath explicitly calls 
 		try {
-			if (config.RUN_BY.LIBRARY) {
-				await page.waitForXPath(selector, { timeout: config.waitingTimeout });
-				const [button] = await page.$x(selector);
-				await Promise.all([
-					button.click(),
-				]);
-			}
-			else {
-				await module.exports.click(page, selector)
-			}
+			await page.waitForXPath(selector, { timeout: config.waitingTimeout });
+			const [button] = await page.$x(selector);
+			await Promise.all([
+				button.click(),
+			]);
 
 		} catch (error) {
 
@@ -294,14 +289,8 @@ module.exports = {
    */
 	hoverXPath: async function (page, selector, timeOut) {
 		try {
-			if (config.RUN_BY.LIBRARY) {
-				await page.waitForXPath(selector)
-				await page.hover(selector)
-			}
-			else {
-				await page.waitForSelector(selector)
-				await page.hover(selector)
-			}
+			await page.waitForXPath(selector)
+			await page.hover(selector)
 
 		} catch (error) {
 
@@ -319,17 +308,12 @@ module.exports = {
 	doubleClick: async function (page, selector) {
 		try {
 			await page.waitForSelector(selector, { timeout: config.waitingTimeout })
-			if (config.RUN_BY.LIBRARY) {
-				await page.evaluate(selector => {
-					var targLink = document.querySelector(selector);
-					var clickEvent = document.createEvent('MouseEvents');
-					clickEvent.initEvent('dblclick', true, true);
-					targLink.dispatchEvent(clickEvent);
-				}, selector)
-			}
-			else {
-				await page.dblclick(selector)
-			}
+			await page.evaluate(selector => {
+				var targLink = document.querySelector(selector);
+				var clickEvent = document.createEvent('MouseEvents');
+				clickEvent.initEvent('dblclick', true, true);
+				targLink.dispatchEvent(clickEvent);
+			}, selector)
 		} catch (error) {
 
 			throw new Error(`Unable to double click on Selector: ${selector}`)
@@ -369,14 +353,10 @@ module.exports = {
 	*/
 	isExist: async function (page, selector, timeOut) {
 		try {
-			if (config.RUN_BY.LIBRARY) {
-				if (selector.startsWith('//')) {//Handle XPath
-					await page.waitForXPath(selector, { timeout: timeOut })
-				} else {
-					await page.waitForSelector(selector, { timeout: timeOut })
-				}
+			if (selector.startsWith('//')) {//Handle XPath
+				await page.waitForXPath(selector, { timeout: timeOut })
 			} else {
-				await page.waitForSelector(selector, { waitFor: "visible", timeout: timeOut })
+				await page.waitForSelector(selector, { timeout: timeOut })
 			}
 			return true;
 		} catch (error) {
@@ -431,12 +411,7 @@ module.exports = {
 	*/
 	waitForXPath: async function (page, selector, timeout = config.waitingTimeout) {
 		try {
-			if (config.RUN_BY.LIBRARY) {
-				await page.waitForXPath(selector, { timeout: timeout })
-			}
-			else {
-				await page.waitForSelector(selector)
-			}
+			await page.waitForXPath(selector, { timeout: timeout })
 		} catch (error) {
 
 			throw new Error(error)
@@ -468,12 +443,7 @@ module.exports = {
 	selectValueFromDropDown: async (page, selectSelector, optionValue) => {
 		try {
 			await page.waitForSelector(selectSelector)
-			if (config.RUN_BY.LIBRARY) {
-				await page.select(selectSelector, optionValue)
-			}
-			else {
-				await page.selectOption(selectSelector, optionValue)
-			}
+			await page.select(selectSelector, optionValue)
 		} catch (error) {
 			throw new Error(error)
 		} finally {
@@ -530,7 +500,7 @@ module.exports = {
 	switchFrame: async function (page, selector) {
 
 		try {
-			await page.waitForSelector(selector,{timeout:config.waitingTimeout})
+			await page.waitForSelector(selector, { timeout: config.waitingTimeout })
 			const frameHandle = await page.$(selector)
 			const frame = await frameHandle.contentFrame();
 			return frame
