@@ -178,7 +178,7 @@ module.exports = {
 	*/
 	getText: async function (page, selector, textOnly, maximumTime = 1000) {
 		try {
-			if (selector.startsWith('/') || (selector.startsWith('(/'))) {//Handle XPath
+			if (selector.startsWith('/') || (selector.startsWith('('))) {//Handle XPath
 				await page.waitForXPath(selector, { timeout: maximumTime })
 				let myElement = await page.$x(selector);
 				return page.evaluate(el => el.textContent, myElement[0]);
@@ -353,7 +353,7 @@ module.exports = {
 	*/
 	isExist: async function (page, selector, timeOut) {
 		try {
-			if (selector.startsWith('//')) {//Handle XPath
+			if (selector.startsWith('//') || selector.startsWith('(')) {//Handle XPath
 				await page.waitForXPath(selector, { timeout: timeOut })
 			} else {
 				await page.waitForSelector(selector, { timeout: timeOut })
